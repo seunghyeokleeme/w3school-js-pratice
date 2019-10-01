@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Output | 01</title>
+    <meta charset="utf-8" />
+    <style>
+      code {
+        background-color: #eee;
+        border-radius: 3px;
+        font-family: courier, monospace;
+        padding: 0 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Using innerHTML</h1>
+    <P>
+      To access an HTML element, JavaScript can use the
+      <code>document.getElementById(id)</code> method. The id attribute defines
+      the HTML element. The <code>innerHTML</code> property defines the HTML
+      content:
+    </P>
+    <h2 id="title"></h2>
+    <script>
+      document.getElementById("title").innerHTML = "Hello World!";
+    </script>
+  </body>
+</html>
