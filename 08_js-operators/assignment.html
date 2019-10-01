@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Output | 02</title>
+    <title>Operators | 01</title>
     <meta charset="utf-8" />
     <style>
       code {
@@ -14,13 +14,15 @@
     </style>
   </head>
   <body>
-    <h1>Using document.write()</h1>
+    <h1>Assignment</h1>
     <P>
-      For testing purposes, it is convenient to use
-      <code>document.write()</code>:
+      The assignment operator (<code>=</code>) assigns a value to a variable.
     </P>
-    <button type="button" onclick='document.write("delete all existing HTML" )'>
-      go!
-    </button>
+    <hr />
+    <p id="demo"></p>
+    <script>
+      var x = 10;
+      document.getElementById("demo").innerHTML = x;
+    </script>
   </body>
 </html>
